@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5962925726970137101
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5962925726970137330}
+  - component: {fileID: 5962925726970137331}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5962925726970137330
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5962925726970137101}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5962925726970137331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5962925726970137101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5a9b48467a7c9148b31941c425d1433, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - loop: 0
+    Name: Strawberry
+    clip: {fileID: 8300000, guid: 37603be7e6f0f7b4fa37d00a181e2ece, type: 3}
+    Volume: 0.5
+    Pitch: 1
+    source: {fileID: 0}
+  - loop: 1
+    Name: Water
+    clip: {fileID: 8300000, guid: 00eb58491f748dd4b8b40fde51fe0f22, type: 3}
+    Volume: 0.5
+    Pitch: 1
+    source: {fileID: 0}
+  - loop: 0
+    Name: Jump
+    clip: {fileID: 8300000, guid: e9b5fa015d5c374418a64f88d230245e, type: 3}
+    Volume: 0.3
+    Pitch: 0.9
+    source: {fileID: 0}
+  - loop: 1
+    Name: Saw
+    clip: {fileID: 8300000, guid: 15d38475d0778984ca7f8a7574f0f074, type: 3}
+    Volume: 0.22
+    Pitch: 0.6
+    source: {fileID: 0}
+  - loop: 0
+    Name: Tram
+    clip: {fileID: 8300000, guid: ca4f86f2b3e8d784a910b6cffe05f7e7, type: 3}
+    Volume: 1
+    Pitch: 0.9
+    source: {fileID: 0}
+  - loop: 0
+    Name: Maskman
+    clip: {fileID: 8300000, guid: 0719cb50f70840743afcdd8e059ecb92, type: 3}
+    Volume: 1
+    Pitch: 1.4
+    source: {fileID: 0}
+  - loop: 1
+    Name: Air
+    clip: {fileID: 8300000, guid: f68630468b2aec944ace731bb5cc357e, type: 3}
+    Volume: 0.183
+    Pitch: 1
+    source: {fileID: 0}
+  - loop: 1
+    Name: Momentum
+    clip: {fileID: 8300000, guid: 01ff388fbcf27f041979cac6d7e7210f, type: 3}
+    Volume: 0.37
+    Pitch: 1
+    source: {fileID: 0}
